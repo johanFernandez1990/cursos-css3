@@ -262,7 +262,7 @@ transition:all 300ms easy-in-out;
     height:100%;
     min-height:100%;
     overflow:auto;
-    paddin:6rem;
+    
     padding-left:3rem;
     background-color:var(--color-principal);
     display:block;
@@ -413,7 +413,7 @@ position:relative;
     width:100%;
     display:flex;
     flex-direction:row;
-    flex_wrap:wrap;
+    flex-wrap:nowrap;
 }
 .reviews__review{
     
@@ -1014,24 +1014,24 @@ padding:0 1.5rem;
 .form__input{
     position:relative;
     width:90%;
-  
     display:block;
     border:0.2rem solid var(--color-border-reviews);
     border-radius:0.5rem;
     font-size:1.5rem;
-    padding.top:1rem;
+    padding-top:1rem;
     padding-bottom:1rem;
     padding-left:1.2rem;
     padding-right:1.2rem;
     outline:none;
     box-shadow:0 1rem 1rem -8px rgba(0, 0, 0, 0.10);
     background-color:transparent;
-    background:0 0;
     z-index:1;
 }
+    
 .form__input:focus{
     border:0.2rem solid var(--color-secondary);
 }
+  
 .form__label{
     position:absolute;
     top:1rem;
